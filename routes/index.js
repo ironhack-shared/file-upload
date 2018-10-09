@@ -16,11 +16,12 @@ router.get('/', (req, res, next) => {
 //   res.redirect('/')
 // });
 
+//endpoint
 router.post("/uploadCloud", uploadCloud.single("photo"), (req, res, next) => {
   console.log("ASDFASD");
   console.log(req.body);
   console.log(req.file);
-  res.redirect("/");
+  res.json(req.file)
 });
 
 module.exports = router;
