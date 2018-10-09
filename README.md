@@ -1,0 +1,6 @@
+don't forget to add
+
+PORT=3000
+CLOUDINARY_NAME=xxx
+CLOUDINARY_KEY=xxx
+CLOUDINARY_SECRET=xxx
